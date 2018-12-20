@@ -1,0 +1,10 @@
+<h1 mat-dialog-title class="dialog-header">New Url</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.longUrl" placeholder="paste url here">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button (click)="addUrl()" cdkFocusInitial color="accent">Add Url</button>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+</div>

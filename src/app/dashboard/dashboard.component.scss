@@ -1,0 +1,26 @@
+.filter-cont {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+tr:hover td {
+  background-color: azure;
+  cursor: pointer;
+}
+
+td, th {
+  width: 50%;
+}
+
+td:nth-child(1), th:nth-child(1) {
+  width: 25%;
+  max-width: 200px;
+}

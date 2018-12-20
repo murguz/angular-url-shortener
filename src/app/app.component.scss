@@ -1,0 +1,18 @@
+@import '~@angular/material/theming';
+$app-primary: mat-palette($mat-indigo);
+$primary: mat-color($app-primary);
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: $primary;
+}
+
+::ng-deep {
+  .mat-dialog-title {
+    background-color: $primary;
+  }
+}
